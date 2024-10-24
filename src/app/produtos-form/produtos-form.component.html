@@ -1,0 +1,21 @@
+
+<form (ngSubmit)="salvarProduto()">
+    <div class="container container-form">
+        <h2>{{ produto.id ? 'Editar Produto' : 'Adicionar Produto' }}</h2>
+      <label for="nome" class="form-label">Produto:</label>
+      <input type="text" class="form-control" id="nome" name="nome" [(ngModel)]="produto.nome">
+      <div id="emailHelp" class="form-text"></div>
+    
+    <div class="mb-3">
+      <label for="preco" class="form-label">Preço:</label>
+      <input type="text" class="form-control" id="preco" name="preco" [(ngModel)]="produto.preco">
+    </div>
+    <div class="mb-3">
+      <label for="quantidade" class="form-label">Quantidade:</label>
+      <input type="text" class="form-control" id="quantidade" name="quantidade" [(ngModel)]="produto.quantidade">
+    </div>
+    <div class="button-save">
+      <button class="btn-salvar">Salvar</button>
+    </div>
+    </div>
+  </form>

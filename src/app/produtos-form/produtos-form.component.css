@@ -1,0 +1,54 @@
+.container-form {
+    background-color: rgb(209, 168, 214);
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(17, 17, 32, 0.1);
+}
+.container-form h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.container-form .form-group {
+    margin-bottom: 15px;
+}
+.container-form .form-group label {
+    font-size: 18px;
+    font-weight: 500;
+}
+.container-form .form-group input {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 8px;
+}
+.container-form .btn {
+    display: block;
+    width: 30%;
+    height: 45px;
+    margin: 20px auto;
+    font-size: 18px;
+    background-color: blue;
+    color: midnightblue;
+    border: none;
+    border-radius: 8px;
+}
+.container-form .btn:hover {
+    background-color: blue;
+}
+.button-save{
+    text-align: center;
+    border-radius: none;
+    border: none;
+
+}
+.btn-salvar {
+    background-color: rgb(112, 29, 133);
+    border: none;
+    color: white;
+}

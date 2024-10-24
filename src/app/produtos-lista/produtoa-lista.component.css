@@ -1,0 +1,31 @@
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+.container {
+    border: 1px solid rgb(95, 16, 88) ;
+    border-radius: 20px;
+    padding: 10px;
+}
+.button-down {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+.btn-info{
+    background-color: rgb(229, 198, 236);
+    border: none;
+}
+.btn-danger{
+    background-color: rgb(77, 27, 90);
+border: none;
+}
+.btn-success {
+    background-color: rgb(77, 27, 90);
+    border: none;
+}
